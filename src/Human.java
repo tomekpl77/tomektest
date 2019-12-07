@@ -11,6 +11,14 @@ final class Human {
     String name;
     String lastName;
 
+    public Human(int age, int weight, int height, String name, String lastName) {
+        this.age = age;
+        this.weight = weight;
+        this.height = height;
+        this.name = name;
+        this.lastName = lastName;
+    }
+
     public int getWeight() {
         return weight;
     }
@@ -33,6 +41,6 @@ final class Human {
 
     @Override
     public String toString() {
-        return name + lastName + age + height + weight;
+        return name + " " + lastName + " " + "Age: " + age + ", Heigh: " + height + " ,Weigh: " + weight;
     }
 }
