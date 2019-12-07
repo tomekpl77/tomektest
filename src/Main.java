@@ -8,8 +8,9 @@ public final class Main {
     public static void main(String[] args) {
         System.out.println("opopopTESTfewfwferwrwerwerwerwrewerwe");
         System.out.println("ZZZZZZZZ122222");
-        int a;
-        int b;
+        int a=5;
+        int b=5;
+        int c=a+b;
 
 
     }
